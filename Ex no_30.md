@@ -4,16 +4,15 @@
 To write a C program to add two integer elements in an array using realloc() and that array already has three elements.
 
 ## Algorithm
- 1. Start.
+1. Start.
 2. Declare array size
 3. Initialize array elements using malloc()
 4. Update array size using realloc()
 5. Print the result.
-6. End 
-
+6. End.  
 
 ## Program:
-```c
+```
 #include <stdio.h>
 #include <stdlib.h>
 int main() {
@@ -34,12 +33,13 @@ int main() {
 printf("Updated array:\n");
  for (i = 0; i < size; i++) {
  printf("%d ", arr[i]);
- }
-}
+ }}
 ```
-## Output:
 
-![image](https://github.com/user-attachments/assets/1b88c53d-e445-43bf-b1aa-e183f49e340e)
+## Output:
+<img width="1129" height="254" alt="image" src="https://github.com/user-attachments/assets/e06a76df-af15-4524-b8f8-f7b1434aa2a9" />
+
+
+
 ## Result:
 Thus the program was executed and the output was verified successfully.
-
