@@ -11,10 +11,10 @@ To write a C program that demonstrates the use of typedef to create a new alias 
 5. Check eligible for marriage.
 6. If age >= 21, print "Eligible".
 7. If false, print " Not Eligible".
-8. End.
-   
+8. End.   
+
 ## Program:
-```c
+```
 #include <stdio.h>
 typedef int MyInt;
 int main() {
@@ -25,8 +25,9 @@ int main() {
 ```
 
 ## Output:
+<img width="1126" height="180" alt="image" src="https://github.com/user-attachments/assets/5cf2b763-c146-4087-b356-4fe0e2998ff6" />
 
-![image](https://github.com/user-attachments/assets/89b698af-641a-4365-a475-5218bbe2826a)
+
 
 ## Result:
 Thus the program was executed and the output was verified successfully.
