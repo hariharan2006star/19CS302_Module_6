@@ -4,16 +4,11 @@
 To write a C program to create two float variables using calloc() and find minimum among them.
 
 ## Algorithm
-1. Start.
-2. Initialize two variables value of calloc().
-3. Prompt the user to enter values.
-4. Read the values using scanf.
-5. Find minimum and print result
-6. End.
-
+Start. Initialize two variables value of calloc(). Prompt the user to enter values. Read the values using scanf. Find minimum and print result End 
 
 ## Program:
-```c
+```
+
 #include <stdio.h>
 #include <stdlib.h>
 int main() {
@@ -25,12 +20,12 @@ int main() {
  printf("%d\n", minimum);
  free(num1);
  free(num2);
+
 ```
 
 ## Output:
 
-![image](https://github.com/user-attachments/assets/375ec2ef-8893-4228-8485-961849f53ed4)
-
+<img width="627" height="295" alt="image" src="https://github.com/user-attachments/assets/9afddf75-8009-46a4-96ee-c1357540b91b" />
 
 ## Result:
 Thus the program was executed and the output was verified successfully.
