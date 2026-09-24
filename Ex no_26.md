@@ -9,8 +9,10 @@ To write a C program to demonstrate a self-referential structure where an employ
 3. Prompt the user to enter a value.
 4. Print the structure values.
 5. End.
+ 
+
 ## Program:
-```c
+```
 #include <stdio.h>
 #include <stdlib.h>
 struct Employee {
@@ -43,7 +45,7 @@ NULL) ? "None" : emp1->manager->name);
 ```
 
 ## Output:
-![image](https://github.com/user-attachments/assets/9a4bdb3a-40bc-4700-b634-f42947776c2b)
+<img width="1130" height="454" alt="image" src="https://github.com/user-attachments/assets/9c579ac7-69e3-4984-9948-02b54f928083" />
 
 
 
